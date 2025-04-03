@@ -6,8 +6,13 @@ backend/node_modules/
 # Logs
 *.log
 
-# .env
-*.env
+# Environment files
+.env
+**/.env
 
-# Build
-frontend/build
+# Build files
+frontend/build/
+
+# OS / IDE artifacts
+.DS_Store
+*.swp
